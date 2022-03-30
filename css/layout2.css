@@ -1,0 +1,50 @@
+.div {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/shoes.jpg); /*여러개 넣고 싶으면 url로 계속 붙이기*/
+  background-size: cover; /*cover백그라운드 공백을 없애고 꽉채우기, contain 배경 짤리지 않고 꽉채우기*/
+  background-repeat: no-repeat; /*반복을 없애기*/
+  background-position: center; /*가운데 정렬*/
+  background-attachment: fixed; /*스크롤이 될때 배경이 고정됨*/
+  padding: 1px;
+  text-align: center;
+}
+.main-title {
+  color: white;
+  font-size: 40px;
+  margin-top: 200px;
+}
+.main-context {
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.main-button {
+  margin-top: 10px;
+  width: 300px;
+  padding: 15px;
+  font-size: 20px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  z-index: 10;
+}
+.main-box {
+  width: 80%;
+  max-width: 600px;
+  padding: 50px;
+  background-color: #eee;
+  position: relative;
+  top: -40px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  z-index: 1;
+  text-align: center;
+}
