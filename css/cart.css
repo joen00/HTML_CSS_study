@@ -1,0 +1,51 @@
+div,textarea,input {
+    box-sizing: border-box;
+}
+body {
+margin: 0px;
+}
+.main_box td{
+    padding: 15px;
+    border-bottom: 1px solid #BACBD5;
+}
+.main_box th{
+    padding: 15px;
+    border-bottom: 1px solid #BACBD5;
+    color: #36548d;
+}
+.main_box th:nth-child(2){
+    width: 200px;
+}
+table{
+    border-collapse: collapse;
+}
+.main_background{
+    margin: auto;
+    height: 700px;
+    background-color: #BACBD5;
+    padding: 30px;
+}
+.main_top{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    color: rgb(39, 96, 143);
+}
+.main_box{
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.blue-button{
+    padding: 20px;
+    background-color: #22478a;
+    color: white;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+a {text-align: center; text-decoration: none; /* 링크의 밑줄 제거 */ color: inherit; /* 링크의 색상 제거 */ }
